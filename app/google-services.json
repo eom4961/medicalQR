@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "910777926216",
+    "project_id": "patientsqr",
+    "storage_bucket": "patientsqr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910777926216:android:5b0e152a803b10534f4e7d",
+        "android_client_info": {
+          "package_name": "com.example.medicalqr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910777926216-viv1jv92b1o0m1faervjo875pkihm7mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZbebyxN8CO_6f1j5ZbH7dAdSIftLEM0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910777926216-viv1jv92b1o0m1faervjo875pkihm7mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

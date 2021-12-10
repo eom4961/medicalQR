@@ -15,9 +15,6 @@
             android:name=".Qrcode"
             android:exported="false" />
         <activity
-            android:name=".Qrcdoe"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

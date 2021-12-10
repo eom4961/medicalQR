@@ -67,11 +67,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //QR코드 버튼 연결
         qrcodeButton = findViewById(R.id.qrcodeButton);
         qrcodeButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Qrcode.class);
-                startActivity(intent); // 회원정보수정 액티비티로 이동
+                startActivity(intent); // QR코드 액티비티로 이동
             }
         });
     }

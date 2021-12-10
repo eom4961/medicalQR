@@ -26,7 +26,7 @@ public class Qrcode extends AppCompatActivity {
         //QR 스켄시 이동
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
-        text = user.toString();
+        text = user.getUid();
         MultiFormatWriter multiFormatWriter = new MultiFormatWriter();
         try {
             BitMatrix bitMatrix = multiFormatWriter.encode(text, BarcodeFormat.QR_CODE, 200, 200);
